@@ -56,7 +56,7 @@ You can click the Preview link to take a look at your changes.
        UML
        Figma
 
-2021 - PowerBI
+2021 - PowerBI (estratégico, tático, operacional)
 
        Link:
         
