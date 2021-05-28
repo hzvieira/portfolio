@@ -31,12 +31,15 @@ You can click the Preview link to take a look at your changes.
        Postgres
        UML
        
-2018 - Orbital
+2018 - Mais que Sócio
+
+       Orbital
        Análise de Negócios
 
 2019 - H3X
        UML
        Requisitos
+       H3X Labs
        
 2020 - Rumo
        PowerBI
