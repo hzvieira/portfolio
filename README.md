@@ -17,12 +17,16 @@ You can click the Preview link to take a look at your changes.
 2012 - Programador
        JAVA
        PrimeFaces
+       
+
 
 2013 - Produção de aplicativos
        Android
        JAVA
        SQLite
        Google Play
+       
+       Link para projetos
    
 2017 - MercadoH
        Node.js
@@ -30,6 +34,8 @@ You can click the Preview link to take a look at your changes.
        IONIC
        Postgres
        UML
+       
+       Link Projeto
        
 2018 - Mais que Sócio
 
@@ -41,11 +47,15 @@ You can click the Preview link to take a look at your changes.
        Requisitos
        H3X Labs
        
+       Link Projeto
+       
 2020 - Rumo
        PowerBI
        UML
        Figma
 
 2021 - PowerBI
+
+       Link:
         
        
