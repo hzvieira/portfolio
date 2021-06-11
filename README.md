@@ -1,6 +1,8 @@
 ## Dados
 Portfólio dos trabalhos e estudos referentes a área de dados, com foco em Análise.
 
+![powerbi](https://user-images.githubusercontent.com/4234459/121735331-5dc0fd00-cacc-11eb-8792-0e403edf02e3.png)
+
 [Mais informações](./analise-dados/)
 
 Tecnologias utilizadas:
@@ -28,6 +30,8 @@ Tecnologias utilizadas:
 ## MercadoH
 Aplicativo onde o usuário realiza a sua compra de itens de supermercado em poucos minutos.
 
+![mercadoh](https://user-images.githubusercontent.com/4234459/121735320-5699ef00-cacc-11eb-9c19-8332dd31a9c8.png)
+
 [Mais informações](./mercadoh/)
 
 Tecnologias utilizadas: 
@@ -50,6 +54,8 @@ Tecnologias utilizadas:
 ## Desenvolvimento de aplicativos gerais
 
 Nesse período desenvolvi alguns joguinhos para android e o conceito de um aplicativo para o livro 'O desafio de amar', base do filme ['Prova de fogo'](https://www.youtube.com/watch?v=Man0HhpIx0I) 
+
+![aplicativos-gerais](https://user-images.githubusercontent.com/4234459/121735300-4eda4a80-cacc-11eb-94af-13ba7ae4422c.png)
 
 [Mais informações](./aplicativos-gerais/)
 
@@ -75,6 +81,8 @@ Tecnologias utilizadas:
 A aplicação foi desenvolvida para vendedores autonomos, chamados de consultores de vendas.
 
 A ideia do software surgiu da necessidade de pessoas próximas, que solicitaram algo que ajudassem elas a controlar suas vendas, pois muitas delas tem uma grande quantidade de clientes e revende vários produtos de diferentes marcas, o maior problema notado é que existe uma dificuldade em controlar os clientes e as vendas.
+
+![TCC](https://user-images.githubusercontent.com/4234459/121735273-4255f200-cacc-11eb-9cf7-e163c7adeb72.png)
 
 Tecnologias utilizadas: 
 
