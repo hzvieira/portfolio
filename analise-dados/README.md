@@ -9,6 +9,10 @@ Para pegar dados é utilizada web scraping, algoritmo feito em Node.js.
 ### Havan
 Dasboard criado com o propósito de mostrar resultado de faturamento, desempenho, pagamento e ranking de lojas.
 
-### Mecearia Record
+[Mais screenshots](./havan/)
+
+### Mercado Local
 Dashboard com foco nas vendas por hora, vendas de itens/seção e, cesta de compras por produto.
+
+[Mais screenshots](./mercado-local/)
 
