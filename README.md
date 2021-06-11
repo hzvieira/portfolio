@@ -1,7 +1,7 @@
 ## Dados
 Portfólio dos trabalhos e estudos referentes a área de dados, com foco em Análise.
 
-[Mais informações](../analise-dados/)
+[Mais informações](./analise-dados/)
 
 Tecnologias utilizadas:
 
