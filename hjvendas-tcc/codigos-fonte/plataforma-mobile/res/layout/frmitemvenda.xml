@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo">
+    <TableRow>
+         <TextView 
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="Produto"
+	    	android:textColor="#111"  			
+  		/> 
+  		<EditText 
+  			android:id="@+id/campoNome" 
+  			android:width="240px"
+  			android:hint="Busque o produto"
+  			android:layout_weight="1"
+  		/>  	
+  		<requestFocus />
+  		<Button  
+  			android:id="@+id/btBuscar" 
+  			android:text="Buscar" 
+   			android:onClick="selecionarProduto"
+  			android:layout_weight="1"
+  			android:layout_width="wrap_content"
+  		/>
+   </TableRow>
+   <TableRow> 
+      	<TextView 
+      		android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="Valor"
+  			android:textColor="#111"
+  		/>
+  		<EditText 
+  			android:id="@+id/campoValor" 
+  			android:width="240px"
+  			android:hint="Valor"
+  			android:layout_weight="1"
+  			android:inputType="number"
+  			android:enabled="false"
+  		/>
+   </TableRow>
+    <TableRow> 
+      	<TextView 
+      		android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="Quantidade"
+  			android:textColor="#111"
+  		/>
+  		<EditText 
+  			android:id="@+id/campoQuantidade" 
+  			android:width="240px"
+  			android:hint="Quantidade"
+  			android:layout_weight="1"
+  			android:inputType="number"
+  		/>
+   </TableRow>
+   
+   	  <TableRow >    
+	    <TextView 
+	    	android:text="Entregar: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxEntrega" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	    
+	  </TableRow>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" >
+    	<Button  android:id="@+id/btCancelar" android:text="Cancelar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="cancelar"/>
+    	<Button  android:id="@+id/btSalvar" android:text="Concluir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="salvar"/>    
+    </LinearLayout>
+    
+
+    
+</TableLayout>

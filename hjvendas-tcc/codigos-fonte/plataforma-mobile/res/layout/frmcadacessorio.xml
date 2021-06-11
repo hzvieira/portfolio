@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/fundo">
+
+	<TableLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent">
+
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Descrição: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoDescricao" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="380dp"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Nome: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoNome" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="190dp"
+	    />
+	 </TableRow>
+	  
+	 <TableRow >
+	    <TextView 
+	    	android:text="Valor: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoValor" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="190dp"
+	    	android:inputType="numberDecimal"
+	    />
+	  </TableRow>  
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Duração: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoDuracao" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="380dp"
+	    	android:inputType="number"
+	    	android:hint="Em dias"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >    
+	    <TextView 
+	    	android:text="Genero: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxGenero" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	    
+	  </TableRow>
+	  
+	  <TableRow >    
+	    <TextView 
+	    	android:text="Fornecedor: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxFornecedor" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	    
+	  </TableRow>
+	  
+	  	  <TableRow >    
+	    <TextView 
+	    	android:text="Área corporal: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxParteDoCorpo" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	    
+	  </TableRow>
+
+	  <TableRow >    
+	    <TextView 
+	    	android:text="Cor: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxCor" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	    
+	  </TableRow>
+	  
+	 <LinearLayout 
+	 	android:layout_width="wrap_content" 
+	 	android:layout_height="fill_parent">
+	    	
+	    	<Button  
+	    		android:id="@+id/btCancelar" 
+	    		android:text="Cancelar" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:onClick="cancelar"
+	    	/>
+	    	
+	    	<Button  
+	    		android:id="@+id/btSalvar" 
+	    		android:text="Salvar" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:onClick="salvar"
+	    	/>
+	    	    
+	    </LinearLayout> 
+	    
+	</TableLayout>
+</ScrollView>

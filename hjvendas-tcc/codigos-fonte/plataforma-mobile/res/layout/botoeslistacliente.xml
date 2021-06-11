@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_weight="1">
+      <LinearLayout
+	  	xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="horizontal"
+	  	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+	  	android:layout_weight="1">
+   
+    	<Button android:text="Alterar" android:id="@+id/btAlterar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="alterar"></Button>
+    	<Button android:text="Excluir" android:id="@+id/btExcluir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="excluir"></Button>
+    	<Button android:text="Selecionar" android:id="@+id/btSelecionar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="selecionar"></Button>
+    </LinearLayout>
+    
+    <LinearLayout
+	  	xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="horizontal"
+	  	android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+	  	android:layout_weight="1">
+	  	
+    	<Button android:text="Receber dinheiro" android:id="@+id/btReceberDinehiro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="receberDinheiro"></Button>
+    	<Button android:text="Cancelar" android:id="@+id/btCancelar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="cancelar"></Button>
+	</LinearLayout>
+
+</LinearLayout>

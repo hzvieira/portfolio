@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/fundo">
+
+	<TableLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent">
+
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Nome: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoNome" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="380dp"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Telefone: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoTelefone1" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="190dp"
+	    />
+	 </TableRow>
+	  
+	 <TableRow >
+	    <TextView 
+	    	android:text="Telefone comercial: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoTelefone2" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="190dp"
+	    />
+	  </TableRow>  
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="E-Mail: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoEmail1" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="380dp"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="E-Mail comercial: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoEmail2" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="380dp"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Endereço: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoEndereco" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="380dp"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Numero: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoNumero" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="100dp"
+	    	android:inputType="number"
+	    />
+	   </TableRow>
+	  
+	  <TableRow >   
+	    <TextView 
+	    	android:text="Complemento: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoComplemento" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="100dp"
+	    />
+	    
+	  </TableRow>
+	  
+	 <TableRow >
+		<TextView 
+	    	android:text="Bairro: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoBairro" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="100dp"
+	    />
+	 </TableRow>
+	  
+	 <TableRow >   
+	    <TextView 
+	    	android:text="CEP: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoCep" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="100dp"
+	    	android:inputType="number"
+	    />
+	    
+	  </TableRow>
+	  
+	 <TableRow >
+		<TextView 
+	    	android:text="CNPJ: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoCNPJ" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="100dp"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >    
+	    <TextView 
+	    	android:text="Cidade: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxCidade" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	    
+	  </TableRow>
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Observações: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoObservacoes" 
+	    	android:layout_height="100dp"
+	    	android:layout_width="100dp"
+	    />
+	 </TableRow>
+	  
+	 <LinearLayout 
+	 	android:layout_width="wrap_content" 
+	 	android:layout_height="fill_parent">
+	    	
+	    	<Button  
+	    		android:id="@+id/btCancelar" 
+	    		android:text="Cancelar" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:onClick="cancelar"
+	    	/>
+	    	
+	    	<Button  
+	    		android:id="@+id/btSalvar" 
+	    		android:text="Salvar" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:onClick="salvar"
+	    	/>
+	    	    
+	    </LinearLayout> 
+	    
+	</TableLayout>
+</ScrollView>

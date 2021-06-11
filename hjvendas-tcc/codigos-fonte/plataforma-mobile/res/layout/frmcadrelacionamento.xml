@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<TableLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:background="@drawable/fundo">
+
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Nome: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoNome" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="100dp"
+	    />
+	    <Button  
+	    	android:id="@+id/btBuscar" 
+	    	android:text="Buscar" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content" 
+	    	android:onClick="buscar"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >    
+	    <TextView 
+	    	android:text="Genero: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxGenero" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	    
+	  </TableRow>
+	  
+	  <TableRow >
+		<TextView 
+	    	android:text="Telefone: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoTelefone1" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="190dp"
+	    />
+	 </TableRow>
+	  
+	 <TableRow >
+	    <TextView 
+	    	android:text="Telefone celular " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	        android:textColor="#111"
+	    />
+	    <EditText 
+	    	android:id="@+id/campoTelefone2" 
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="190dp"
+	    />
+	  </TableRow>  
+	  
+	  <TableRow >    
+	    <TextView 
+	    	android:text="Relacionamento: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxRelacionamento" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	  </TableRow>
+	  
+	  <TableRow >    
+	    <TextView 
+	    	android:text="Ativo: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#111"
+	    />
+	    <Spinner 
+	    	android:id="@+id/boxAtivo" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    />
+	    
+	  </TableRow>
+  
+	 <LinearLayout 
+	 	android:layout_width="wrap_content" 
+	 	android:layout_height="fill_parent">
+	    	
+	    	<Button  
+	    		android:id="@+id/btCancelar" 
+	    		android:text="Cancelar" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:onClick="cancelar"
+	    	/>
+	    	
+	    	<Button  
+	    		android:id="@+id/btSalvar" 
+	    		android:text="Salvar" 
+	    		android:layout_width="wrap_content" 
+	    		android:layout_height="wrap_content" 
+	    		android:onClick="salvar"
+	    	/>
+	    </LinearLayout> 
+	    
+	</TableLayout>

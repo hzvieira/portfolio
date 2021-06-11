@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="br.com.projetointegrador"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".menu.Menu" android:label="Menu de opções - Principal" >
+    		 <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+    	</activity>
+    	
+    	<activity android:name=".menu.SubMenuFinanceiro" android:label="Menu de opções - Financeiro" />
+    	<activity android:name=".menu.SubMenuOutros" android:label="Menu de opções - Outros" />
+    	<activity android:name=".menu.SubMenuEntrega" android:label="Menu de opções - Entregas" />
+    	
+    	<activity android:name=".listas.ListaCidade" android:label="Lista de cidades" />
+    	<activity android:name=".cadastros.CadastroCidade" android:label="Cadastro de cidades" />
+    	
+    	<activity android:name=".listas.ListaParteDoCorpo" android:label="Lista de registros de parte do corpo" />
+    	<activity android:name=".cadastros.CadastroParteDoCorpo" android:label="Cadastro de registro de parte do corpo" />
+    	
+    	<activity android:name=".listas.ListaTipoProduto" android:label="Lista de tipos de produtos" />
+    	<activity android:name=".cadastros.CadastroTipoProduto" android:label="Cadastro de tipos de produto" />
+
+    	<activity android:name=".listas.ListaCorProduto" android:label="Lista de cor(es) de produtos" />
+    	<activity android:name=".cadastros.CadastroCorProduto" android:label="Cadastro de cor(es) de produto" />
+
+    	<activity android:name=".listas.ListaGeneroProduto" android:label="Lista de genero do produtos" />
+    	<activity android:name=".cadastros.CadastroGeneroProduto" android:label="Cadastro de genero d0 produto" />
+
+    	<activity android:name=".listas.ListaTipoContatoAgenda" android:label="Lista de tipo de contatos da agenda" />
+    	<activity android:name=".cadastros.CadastroTipoContatoAgenda" android:label="Cadastro de tipo de contatos da agenda" />
+
+    	<activity android:name=".listas.ListaTipoRelacionamento" android:label="Lista de tipo de relacionamento entre clientes" />
+    	<activity android:name=".cadastros.CadastroTipoRelacionamento" android:label="Cadastro de tipo de relacionamentos entre clientes" />
+    	
+    	<activity android:name=".listas.ListaProntaEntrega" android:label="Pronta entrega" />
+    	<activity android:name=".listas.ListaEntregas" android:label="Entregas" />
+    	
+    	<activity android:name=".listas.ListaFornecedor" android:label="Lista de fornecedores" />
+    	<activity android:name=".cadastros.CadastroFornecedor" android:label="Cadastro de fornecedor" />
+    	
+    	<activity android:name=".listas.ListaCliente" android:label="Lista de clientes" />
+    	<activity android:name=".cadastros.CadastroCliente" android:label="Manutenção de cliente" />
+    	<activity android:name=".cadastros.CadastroRelacionamento" android:label="Manutenção de relacionamento entre cliente" />
+    	
+    	<activity android:name=".listas.ListaParcelasPagar" android:label="Lista de contas a pagar" />
+    	<activity android:name=".cadastros.CadastroParcelasPagar" android:label="Manutenção de contas a pagar" />
+    	
+    	<activity android:name=".listas.ListaProduto" android:label="Lista de produtos" />
+    	<activity android:name=".cadastros.CadastroProdutoAcessorio" android:label="Manutenção de produtos - Acessórios" />
+    	<activity android:name=".cadastros.CadastroProdutoCalcado" android:label="Manutenção de produtos - Calçados" />
+    	<activity android:name=".cadastros.CadastroProdutoCosmetico" android:label="Manutenção de produtos - Cosmético" />
+    	
+    	<activity android:name=".listas.ListaPedido" android:label="Lista de pedidos" />
+    	<activity android:name=".cadastros.CadastroVenda" android:label="Manutenção de vendas" />
+    	<activity android:name=".cadastros.CadastroItemPedido" android:label="Inserir item pedido" />
+    	
+    	<activity android:name=".listas.ListaDevolucao" android:label="Lista de produtos devolvidos" />
+        <activity android:name=".cadastros.CadastroDevolucao" android:label="Inclusão de produtos devolvidos" />
+        
+        <activity android:name=".listas.ListaPeriodoVenda" android:label="Lista de periodo de vendas" />
+        <activity android:name=".cadastros.CadastroPeriodoVenda" android:label="Relação de periodo de vendas" />
+        
+        <activity android:name=".listas.ListaVendaProduto" android:label="Lista de produtos de uma venda" />
+        <activity android:name=".listas.ListaPedidoFinal" android:label="Lista de produtos para pedido" />
+        
+        
+            	
+    </application>
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo">
+  
+  <TableRow> 
+  	<TextView 
+  		android:id="@+id/text1" 
+  		android:text="Nome: " 
+  		android:textColor="#111"
+  	/>
+  	<EditText 
+  		android:id="@+id/campoNome" 
+  		android:width="240px"
+  		android:hint="Digite o nome" 
+  	/>  	
+  </TableRow>
+    
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" >
+    	<Button  android:id="@+id/btCancelar" android:text="Cancelar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="cancelar"/>
+    	<Button  android:id="@+id/btSalvar" android:text="Salvar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="salvar"/>    
+    </LinearLayout>
+</TableLayout>

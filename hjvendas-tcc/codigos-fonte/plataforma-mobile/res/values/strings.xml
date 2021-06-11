@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">ProjetoIntegrador</string>
+    <string name="informacaoPedido">Esta tela tem o objetivo de listar os pedidos já realizados para seu cliente bem como o total de produtos vendidos</string>
+    <string name="informacaoDevolucao">Esta tela tem como finalidade listar e cadastrar as devolucoes por cliente.</string>
+    
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_weight="1">
+    <Button android:text="Alterar" android:id="@+id/btAlterar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="alterar"></Button>
+    <Button android:text="Ativar/Desativar" android:id="@+id/btAtivar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ativar"></Button>
+    <Button android:text="Cancelar" android:id="@+id/btCancelar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="cancelar"></Button>
+
+</LinearLayout>

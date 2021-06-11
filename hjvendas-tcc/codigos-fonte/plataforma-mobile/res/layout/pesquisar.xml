@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/fundo">
+  
+  <TextView 
+  	android:text="Informação: "
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:id="@+id/informcao"
+  	android:textColor="#111"
+  />
+  		
+  <View 
+  	android:layout_height="2dip"
+  	android:layout_width="fill_parent"
+  	android:background="#000"
+  />		
+  
+  	<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="horizontal"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content" >
+
+  		<TextView 
+  			android:text="Nome"
+  			android:layout_width="wrap_content" 
+      		android:layout_height="wrap_content"
+  			android:textColor="#111"
+  		/>
+      	<AutoCompleteTextView 
+      		android:id="@+id/pesquisar"
+      		android:hint="Digite o nome" 
+      		android:layout_height="wrap_content" 
+      		android:layout_width="fill_parent"
+      	/>
+   	</LinearLayout>
+  	  <ListView 
+  	  	android:id="@+id/lista" 
+  	  	android:layout_weight="1" 
+  	  	android:layout_width="fill_parent" 
+  	  	android:layout_height="fill_parent"
+		
+  	  />
+  	  
+  	  <LinearLayout
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:orientation="horizontal"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content">
+  	      <Button 
+	     	android:text="Incluir" 
+	     	android:id="@+id/incluir" 
+	     	android:onClick="inserir" 
+	    	android:layout_width="200dp" 
+	    	android:layout_height="80dp"
+	      />
+	     <Button 
+	     	android:text="Voltar" 
+	     	android:id="@+id/btcancelar" 
+	     	android:onClick="voltar" 
+	    	android:layout_width="200dp" 
+	    	android:layout_height="80dp"
+	     />
+     </LinearLayout>    
+</LinearLayout>

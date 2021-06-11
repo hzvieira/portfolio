@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo">
+  
+    <TableRow 
+      	android:layout_weight="1" > 
+  	<EditText 
+  		android:id="@+id/campoNome" 
+  		android:width="240px"
+  		android:hint="Busque o cliente"
+  		android:layout_weight="1"
+  	/>  	
+  	<requestFocus />
+  	<Button  
+  		android:id="@+id/btBuscar" 
+  		android:text="Buscar" 
+   		android:onClick="buscarPessoa"
+  	/>
+  </TableRow>
+  
+    <TableRow 
+      	android:layout_weight="1" > 
+  	<EditText 
+  		android:id="@+id/campoData" 
+  		android:width="240px"
+  		android:hint="Insira a data da venda"
+  		android:layout_weight="1"
+  	/>  	
+  	<requestFocus />
+
+  </TableRow>
+    
+  <TableRow
+    	android:layout_width="wrap_content" 
+  		android:layout_height="wrap_content"
+  		android:layout_weight="8">
+  	  <ListView 
+  	  	android:id="@+id/lista" 
+  	  	android:layout_weight="1" 
+  	  	android:layout_width="match_parent" 
+  	  	android:layout_height="match_parent"
+  	  />
+
+  </TableRow>
+  <TableRow
+    android:layout_weight="1">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+    	<Button  android:id="@+id/btIncluir" android:text="Adicionar produto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="maisProduto"/>
+    	<Button  android:id="@+id/btCancelar" android:text="Cancelar venda" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="cancelar"/>
+    	<Button  android:id="@+id/btSalvar" android:text="Finalizar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="salvar"/>    
+    </LinearLayout>
+  </TableRow>
+    
+</TableLayout>
