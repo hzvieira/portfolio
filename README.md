@@ -76,7 +76,7 @@ Tecnologias utilizadas:
 
 ---
 
-## Trabalho de conclusão do Curso de Análise e Desenvolviemnto de Sistemas - [documentos](./hjvendas-tcc/)
+## Trabalho de conclusão do Curso de Análise e Desenvolviemnto de Sistemas
 
 A aplicação foi desenvolvida para vendedores autonomos, chamados de consultores de vendas.
 
@@ -95,3 +95,5 @@ Tecnologias utilizadas:
 ![Badge](https://img.shields.io/static/v1?label=Astah-Communit&message=IDE&color=D83B01&style=for-the-badge)
 
 ![Badge](https://img.shields.io/static/v1?label=Microsoft-office&message=Escritório&color=D83B01&style=for-the-badge&logo=Microsoft-Office&logoColor=D83B01) 
+
+[Documentos](./hjvendas-tcc/)
