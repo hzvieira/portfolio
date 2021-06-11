@@ -3,8 +3,6 @@ Portfólio dos trabalhos e estudos referentes a área de dados, com foco em Aná
 
 ![powerbi](https://user-images.githubusercontent.com/4234459/121735331-5dc0fd00-cacc-11eb-8792-0e403edf02e3.png)
 
-[Mais informações](./analise-dados/)
-
 Tecnologias utilizadas:
 
 ![Badge](https://img.shields.io/static/v1?label=PowerBi&message=Análise-de-Negócios&color=F2C811&style=for-the-badge&logo=Power-BI&logoColor=F2C811)
@@ -13,17 +11,19 @@ Tecnologias utilizadas:
 ![Badge](https://img.shields.io/static/v1?label=Algoritmo&message=Algoritmo&color=5C5543&style=for-the-badge&logo=CodersRank&logoColor=5C5543)
 ![Badge](https://img.shields.io/static/v1?label=Visual-Code&message=IDE&color=007ACC&style=for-the-badge&logo=Visual-Studio&logoColor=007ACC) 
 
+[Mais informações](./analise-dados/)
+
 ---
 
 ## Horbitute
 Programa para criação de startup/negócio.
 
-[Mais informações](./horbitute/)
-
 Tecnologias utilizadas:
 
 ![Badge](https://img.shields.io/static/v1?label=G-Suite&message=Escritório&color=4285F4&style=for-the-badge&logo=google-drive&logoColor=4285F4) 
 ![Badge](https://img.shields.io/static/v1?label=Trello&message=Escritório&color=0052CC&style=for-the-badge&logo=trello&logoColor=0052CC)
+
+[Mais informações](./horbitute/)
 
 ---
 
@@ -31,8 +31,6 @@ Tecnologias utilizadas:
 Aplicativo onde o usuário realiza a sua compra de itens de supermercado em poucos minutos.
 
 ![mercadoh](https://user-images.githubusercontent.com/4234459/121735320-5699ef00-cacc-11eb-9c19-8332dd31a9c8.png)
-
-[Mais informações](./mercadoh/)
 
 Tecnologias utilizadas: 
 
@@ -49,6 +47,8 @@ Tecnologias utilizadas:
 ![Badge](https://img.shields.io/static/v1?label=Trello&message=Escritório&color=0052CC&style=for-the-badge&logo=trello&logoColor=0052CC)
 ![Badge](https://img.shields.io/static/v1?label=Gimp&message=Edição-de-Imagens&color=5C5543&style=for-the-badge&logo=gimp&logoColor=5C5543) 
 
+[Mais informações](./mercadoh/)
+
 ---
 
 ## Desenvolvimento de aplicativos gerais
@@ -56,8 +56,6 @@ Tecnologias utilizadas:
 Nesse período desenvolvi alguns joguinhos para android e o conceito de um aplicativo para o livro 'O desafio de amar', base do filme ['Prova de fogo'](https://www.youtube.com/watch?v=Man0HhpIx0I) 
 
 ![aplicativos-gerais](https://user-images.githubusercontent.com/4234459/121735300-4eda4a80-cacc-11eb-94af-13ba7ae4422c.png)
-
-[Mais informações](./aplicativos-gerais/)
 
 Tecnologias utilizadas: 
 
@@ -73,6 +71,8 @@ Tecnologias utilizadas:
 ![Badge](https://img.shields.io/static/v1?label=G-Suite&message=Escritório&color=4285F4&style=for-the-badge&logo=google-drive&logoColor=4285F4) 
 ![Badge](https://img.shields.io/static/v1?label=Gimp&message=Edição-de-Imagens&color=5C5543&style=for-the-badge&logo=gimp&logoColor=5C5543) 
 ![Badge](https://img.shields.io/static/v1?label=Google-Play&message=Loja&color=414141&style=for-the-badge&logo=google-play&logoColor=414141) 
+
+[Mais informações](./aplicativos-gerais/)
 
 ---
 
