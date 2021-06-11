@@ -19,4 +19,4 @@ Pra que ir no supermercado se você pode fazer suas compras no mercadoH.
 
 [Pitch](https://drive.google.com/file/d/0B_rAuoY38x1ETGhpR3MwRkNiUkk/view?usp=sharing&resourcekey=0-Aabkz6thuea_lVQeyLcZdQ)
 
-[Imagens da Interface](../interface/)
+[Imagens da Interface](./interface/)

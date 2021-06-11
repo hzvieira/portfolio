@@ -16,7 +16,7 @@ Tecnologias utilizadas:
 ## Horbitute
 Programa para criação de startup/negócio.
 
-[Mais informações](../horbitute/)
+[Mais informações](./horbitute/)
 
 Tecnologias utilizadas:
 
@@ -28,7 +28,7 @@ Tecnologias utilizadas:
 ## MercadoH
 Aplicativo onde o usuário realiza a sua compra de itens de supermercado em poucos minutos.
 
-[Mais informações](../mercadoh/)
+[Mais informações](./mercadoh/)
 
 Tecnologias utilizadas: 
 
@@ -51,7 +51,7 @@ Tecnologias utilizadas:
 
 Nesse período desenvolvi alguns joguinhos para android e o conceito de um aplicativo para o livro 'O desafio de amar', base do filme ['Prova de fogo'](https://www.youtube.com/watch?v=Man0HhpIx0I) 
 
-[Mais informações](../aplicativos-gerais/)
+[Mais informações](./aplicativos-gerais/)
 
 Tecnologias utilizadas: 
 
@@ -70,7 +70,7 @@ Tecnologias utilizadas:
 
 ---
 
-## Trabalho de conclusão do Curso de Análise e Desenvolviemnto de Sistemas - [documentos](../hjvendas-tcc/)
+## Trabalho de conclusão do Curso de Análise e Desenvolviemnto de Sistemas - [documentos](./hjvendas-tcc/)
 
 A aplicação foi desenvolvida para vendedores autonomos, chamados de consultores de vendas.
 
