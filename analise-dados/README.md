@@ -20,3 +20,8 @@ Dashboard com foco nas vendas por hora, vendas de itens/seção e, cesta de comp
 
 [Mais screenshots](./mercado-local/)
 
+### Mídia pré e pós paga
+
+Dashboard onde temos os principais indicadores de mídia, dados de receita e site. Filtros no topo da página para uma melhor análise dos resultados.
+
+[Portifólio.pdf](https://github.com/hzvieira/portfolio/files/10368581/Portifolio.pdf)
