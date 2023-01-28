@@ -24,5 +24,8 @@ Dashboard com foco nas vendas por hora, vendas de itens/seção e, cesta de comp
 
 Dashboard onde temos os principais indicadores de mídia, dados de receita e site. Filtros no topo da página para uma melhor análise dos resultados.
 
-<iframe src="https://github.com/hzvieira/portfolio/files/10368581/Portifolio.pdf" width="800" height="600"></iframe>
+![cabecalho](https://user-images.githubusercontent.com/4234459/215291226-e1f2b281-7a3a-458d-b26b-f2590263fe34.PNG)
+
+<a href="https://github.com/hzvieira/portfolio/files/10368581/Portifolio.pdf">Arquivo completo</a>
+
 
